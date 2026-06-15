@@ -17,12 +17,12 @@ const AMOUNTS = {
     yearly: 0,
   },
   plus: {
-    monthly: 15,
-    yearly: 144,
+    monthly: 12,
+    yearly: 115,
   },
   pro: {
-    monthly: 40,
-    yearly: 384,
+    monthly: 29,
+    yearly: 278,
   },
   enterprise: {
     monthly: null,
@@ -39,12 +39,12 @@ export const BILLING_PLANS = [
     pricing: {
       monthly: {
         amount: AMOUNTS['free']['monthly'],
-        formattedPrice: '$' + AMOUNTS['free']['monthly'],
+        formattedPrice: '€' + AMOUNTS['free']['monthly'],
         stripeId: null,
       },
       yearly: {
         amount: AMOUNTS['free']['yearly'],
-        formattedPrice: '$' + AMOUNTS['free']['yearly'],
+        formattedPrice: '€' + AMOUNTS['free']['yearly'],
         stripeId: null,
       },
     },
@@ -65,12 +65,12 @@ export const BILLING_PLANS = [
     pricing: {
       monthly: {
         amount: AMOUNTS['plus']['monthly'],
-        formattedPrice: '$' + AMOUNTS['plus']['monthly'],
+        formattedPrice: '€' + AMOUNTS['plus']['monthly'],
         stripeId: process.env.NEXT_PUBLIC_PLUS_MONTHLY_PRICE_ID!,
       },
       yearly: {
         amount: AMOUNTS['plus']['yearly'],
-        formattedPrice: '$' + AMOUNTS['plus']['yearly'],
+        formattedPrice: '€' + AMOUNTS['plus']['yearly'],
         stripeId: process.env.NEXT_PUBLIC_PLUS_YEARLY_PRICE_ID!,
       },
     },
@@ -92,12 +92,12 @@ export const BILLING_PLANS = [
     pricing: {
       monthly: {
         amount: AMOUNTS['pro']['monthly'],
-        formattedPrice: '$' + AMOUNTS['pro']['monthly'],
+        formattedPrice: '€' + AMOUNTS['pro']['monthly'],
         stripeId: process.env.NEXT_PUBLIC_PRO_MONTHLY_PRICE_ID!,
       },
       yearly: {
         amount: AMOUNTS['pro']['yearly'],
-        formattedPrice: '$' + AMOUNTS['pro']['yearly'],
+        formattedPrice: '€' + AMOUNTS['pro']['yearly'],
         stripeId: process.env.NEXT_PUBLIC_PRO_YEARLY_PRICE_ID!,
       },
     },
