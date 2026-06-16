@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-const videoUrl = 'https://youtu.be/T7kzv1nCshM';
+const videoUrl = 'https://youtu.be/4DHjMZdVPkE';
 
 export function IntroVideo() {
   const { t } = useLanguage();

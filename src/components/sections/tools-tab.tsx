@@ -164,14 +164,14 @@ export default function AIToolsTabs() {
                     </div>
                   ) : activeTab === 'taskmode' ? (
                     <div
-                      className="absolute inset-3"
+                      className="absolute inset-8"
                       style={{
                         maskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
                         WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)',
                       }}
                     >
                       <video
-                        src="/images/tab-image/taskmode.mp4"
+                        src="/images/tab-image/Grabación de pantalla 2026-06-16 a las 16.17.52_1.mp4"
                         autoPlay
                         muted
                         loop
