@@ -34,7 +34,7 @@ export default function HeroSection() {
 
               <div className="mt-9 flex sm:flex-row flex-col gap-3 relative z-30 items-center justify-center">
                 <Link
-                  href="/text-generator"
+                  href="/404"
                   className="bg-black dark:bg-white transition h-12 inline-flex items-center justify-center hover:bg-[#363132] dark:hover:bg-gray-100 px-6 py-3 rounded-full text-white dark:text-black text-sm animate-[fadeInUp_0.6s_ease-out_1.2s_both]"
                   style={{ willChange: 'opacity, transform' }}
                 >
