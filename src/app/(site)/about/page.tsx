@@ -62,7 +62,7 @@ export default function AboutPage() {
               Work has become too complex. Too much noise. Too many tools. Sileo clears the space. So you can focus on what matters. Simple works better.
             </p>
             <a href="/404">
-              <button className="px-8 py-3 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors animate-[fadeInUp_0.6s_ease-out_1.2s_both]" style={{ willChange: 'opacity, transform' }}>
+              <button className="px-8 py-3 bg-black dark:bg-[#d4d4d4] text-white dark:text-black rounded-full font-medium hover:bg-gray-800 dark:hover:bg-[#b0b0b0] transition-colors animate-[fadeInUp_0.6s_ease-out_1.2s_both]" style={{ willChange: 'opacity, transform' }}>
                 Start on Web
               </button>
             </a>
@@ -86,7 +86,7 @@ export default function AboutPage() {
                   Most productivity tools were not designed for &ldquo;creative&rdquo; minds. They&apos;re built for linear thinkers, not for those who thrive on chaos, but find it doesn&apos;t work like that. Many people don&apos;t struggle because they lack discipline, but because the tools they use don&apos;t match their thinking style. Sileo is different. It&apos;s designed for minds that need flexibility, visual clarity, and easy to use. So it supports you - not the other way around. And helps you stay focused, one step at a time.
                 </p>
                 <a href="/404">
-                  <button className="px-6 py-2.5 bg-white dark:bg-gray-900 text-black dark:text-white border border-gray-300 dark:border-gray-700 rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+                  <button className="px-6 py-2.5 bg-white dark:bg-[#2a2a2a] text-black dark:text-white border border-gray-300 dark:border-[#3a3a3a] rounded-full font-medium hover:bg-gray-50 dark:hover:bg-[#333333] transition-colors">
                     Get Started Today
                   </button>
                 </a>
@@ -113,7 +113,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Video on the left */}
               <div className="relative">
-                <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-white dark:bg-gray-900 flex justify-center items-center">
+                <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-white dark:bg-white flex justify-center items-center">
                   <img
                     src="/images/about/idlea_1_1.gif"
                     alt="Sileo animation"
@@ -134,7 +134,7 @@ export default function AboutPage() {
                   Sileo is designed to make your day easier, not harder. It gives you a clear view of what to do, helps you break tasks into simple steps, and removes the noise that makes it hard to focus. You can plan your day in a way that feels natural, adjust when things change, and move forward without pressure. Everything is built to support you, so you can stay on track in a way that works for you.
                 </p>
                 <a href="https://brandguidelinessileoes.figma.site/" target="_blank" rel="noopener noreferrer">
-                  <button className="px-6 py-2.5 bg-white dark:bg-gray-900 text-black dark:text-white border border-gray-300 dark:border-gray-700 rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+                  <button className="px-6 py-2.5 bg-white dark:bg-[#2a2a2a] text-black dark:text-white border border-gray-300 dark:border-[#3a3a3a] rounded-full font-medium hover:bg-gray-50 dark:hover:bg-[#333333] transition-colors">
                     Explore Guides
                   </button>
                 </a>
@@ -148,14 +148,14 @@ export default function AboutPage() {
       <section className="py-16 md:py-24">
         <div className="wrapper">
           <div className="max-w-6xl mx-auto">
-            <div className="bg-[#0A0A0A] dark:bg-gray-900 rounded-3xl px-8 py-16 md:px-16 md:py-20 text-center">
+            <div className="bg-[#0A0A0A] dark:bg-[#1a1a1a] rounded-3xl px-8 py-16 md:px-16 md:py-20 text-center">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                 Be part of Sileo
               </h2>
               <p className="text-base md:text-lg text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
                 Sileo is built for people, and it&apos;s made better by them. If you want to help us shape it, or explore the tools, every voice makes Sileo a better tool, more inclusive.
               </p>
-              <button className="px-8 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors">
+              <button className="px-8 py-3 bg-white dark:bg-[#d4d4d4] text-black rounded-full font-medium hover:bg-gray-100 dark:hover:bg-[#b0b0b0] transition-colors">
                 Join Us
               </button>
             </div>

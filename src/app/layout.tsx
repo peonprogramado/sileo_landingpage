@@ -15,7 +15,16 @@ export const metadata: Metadata = {
   description:
     'Demo website of AIStarterKit OSS boilerplate. Built using Next.js, Tailwind CSS, Drizzle ORM, and PostgreSQL.',
   icons: {
-    icon: '/images/hero/logo/logocorto2.png',
+    icon: [
+      {
+        url: '/images/hero/logo/favicongridwhite.svg',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/images/hero/logo/favicongridblack.svg',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
   },
 };
 

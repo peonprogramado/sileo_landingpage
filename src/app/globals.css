@@ -41,8 +41,8 @@
   --color-error-500: #f04438;
   --color-error-600: #d92d20;
 
-  --color-dark-primary: #171f2e;
-  --color-dark-secondary: #1a2231;
+  --color-dark-primary: #1e1e1e;
+  --color-dark-secondary: #252525;
 
   --text-title-lg: 44px;
   --text-title-lg--line-height: 52px;
@@ -416,4 +416,17 @@
 
 .floating-4 {
   animation: float-rev 6s ease-in-out infinite;
+}
+
+/* Dark animated gradient for signup panel */
+@keyframes darkGradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.signup-panel-gradient {
+  background: linear-gradient(135deg, #0a0a0a 0%, #2a2a2a 25%, #111111 50%, #3d3d3d 75%, #0a0a0a 100%);
+  background-size: 400% 400%;
+  animation: darkGradientShift 10s ease infinite;
 }
