@@ -161,6 +161,23 @@ const translations = {
 
     // Brands
     'brands.title': 'Trusted by worlds largest companies including...',
+
+    // Sign Up
+    'signup.tagline': 'Organize your day',
+    'signup.leftPanelTitle': 'Manage your tasks with clarity and effortlessly.',
+    'signup.title': 'Create an account',
+    'signup.subtitle': 'Access your tasks, notes, and projects from anywhere — and keep everything in one place.',
+    'signup.or': 'or',
+    'signup.continueWithApple': 'Continue with Apple',
+    'signup.continueWithGoogle': 'Continue with Google',
+    'signup.alreadyHaveAccount': 'Already have an account?',
+    'signup.signIn': 'Sign in',
+    'signup.downloadApp': 'Download app',
+    'signup.emailLabel': 'Your email',
+    'signup.emailPlaceholder': 'name@email.com',
+    'signup.passwordLabel': 'Create password',
+    'signup.loading': 'Creating account...',
+    'signup.createAccount': 'Create account',
   }
 
   ,
@@ -306,6 +323,23 @@ const translations = {
 
     // Brands
     'brands.title': 'Confiado por las empresas más grandes del mundo incluyendo...',
+
+    // Sign Up
+    'signup.tagline': 'Organiza tu día',
+    'signup.leftPanelTitle': 'Gestiona tus tareas con claridad y sin esfuerzo.',
+    'signup.title': 'Crear una cuenta',
+    'signup.subtitle': 'Accede a tus tareas, notas y proyectos desde cualquier lugar — y mantén todo en un solo sitio.',
+    'signup.or': 'o',
+    'signup.continueWithApple': 'Continuar con Apple',
+    'signup.continueWithGoogle': 'Continuar con Google',
+    'signup.alreadyHaveAccount': '¿Ya tienes una cuenta?',
+    'signup.signIn': 'Iniciar sesión',
+    'signup.downloadApp': 'Download app',
+    'signup.emailLabel': 'Tu email',
+    'signup.emailPlaceholder': 'nombre@correo.com',
+    'signup.passwordLabel': 'Crear contraseña',
+    'signup.loading': 'Creando cuenta...',
+    'signup.createAccount': 'Crear cuenta',
   }
 
   ,

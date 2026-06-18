@@ -101,15 +101,15 @@ export default function MainMobileNav({ isOpen }: MobileMenuProps) {
 
         <div className="flex flex-col pt-3 pb-5 space-y-3 px-6 border-t border-white/30 dark:border-white/15 mt-2">
           <Link
-            href="/signin"
-            className="text-sm block w-full border h-11 border-gray-900/20 dark:border-white/30 px-5 py-3 rounded-full text-center font-medium text-gray-900 dark:text-white hover:bg-white/30 dark:hover:bg-white/10 transition-all duration-200"
+            href="/404"
+            className="flex items-center px-5 py-3 bg-[#0d0d1a] dark:bg-white justify-center text-sm text-white dark:text-[#0d0d1a] rounded-full h-11 hover:opacity-90 transition-all duration-200"
           >
-            Sign In
+            Download app
           </Link>
 
           <Link
             href="/signup"
-            className="flex items-center px-5 py-3 bg-[#0d0d1a] dark:bg-white justify-center text-sm text-white dark:text-[#0d0d1a] rounded-full h-11 hover:opacity-90 transition-all duration-200"
+            className="text-sm block w-full border h-11 border-gray-900/20 dark:border-white/30 px-5 py-3 rounded-full text-center font-medium text-gray-900 dark:text-white hover:bg-white/30 dark:hover:bg-white/10 transition-all duration-200"
           >
             Get Started Free
           </Link>

@@ -75,7 +75,7 @@ export default function AboutPage() {
         <div className="wrapper">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
-              <div>
+              <div className="order-2 md:order-1">
                 <h2
                   ref={titleRef1}
                   className={`text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 transition-all duration-1000 ease-out ${isVisible1 ? 'opacity-100 translate-y-0 blur-0' : 'opacity-0 translate-y-8 blur-[5px]'}`}
@@ -91,7 +91,7 @@ export default function AboutPage() {
                   </button>
                 </a>
               </div>
-              <div className="relative">
+              <div className="relative order-1 md:order-2">
                 <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden">
                   <Image
                     src="/images/about/Mockup1.png"

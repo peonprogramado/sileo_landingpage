@@ -7,12 +7,14 @@ import { authValidation } from '@/lib/zod/auth.schema';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { toast } from 'sonner';
 import { z } from 'zod';
 
 type Inputs = z.infer<typeof authValidation.register>;
 
 export default function SignupForm() {
+  const { t } = useLanguage();
   const form = useForm<Inputs>({
     resolver: zodResolver(authValidation.register),
     defaultValues: {
@@ -48,11 +50,11 @@ export default function SignupForm() {
         name="email"
         render={({ field, fieldState }) => (
           <div>
-            <Label htmlFor="email">Tu email</Label>
+            <Label htmlFor="email">{t('signup.emailLabel')}</Label>
             <Input
               type="email"
               id="email"
-              placeholder="nombre@correo.com"
+              placeholder={t('signup.emailPlaceholder')}
               disabled={isLoading}
               className="mt-1.5 w-full"
               {...field}
@@ -65,7 +67,7 @@ export default function SignupForm() {
       />
 
       <div>
-        <Label htmlFor="password">Crear contraseña</Label>
+        <Label htmlFor="password">{t('signup.passwordLabel')}</Label>
         <div className="relative mt-1.5">
           <Input
             type={isShowPassword ? 'text' : 'password'}
@@ -91,9 +93,10 @@ export default function SignupForm() {
       <button
         type="submit"
         disabled={isLoading}
-        className="w-full bg-[#0A0A0A] hover:bg-[#222] text-white font-medium py-3.5 rounded-full transition-colors mt-2 disabled:opacity-60"
+        className="w-full bg-[#0A0A0A] hover:bg-[#222] text-white font-medium py-3.5 rounded-full transition-colors mt-2 disabled:opacity-60 flex items-center justify-between px-6"
       >
-        {isLoading ? 'Creando cuenta...' : 'Crear cuenta'}
+        <span>{isLoading ? t('signup.loading') : t('signup.createAccount')}</span>
+        {!isLoading && <span className="text-lg">→</span>}
       </button>
     </form>
   );

@@ -48,7 +48,7 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="max-w-[1000px] mx-auto relative">
-            <div className="p-3 sm:p-[18px] relative z-30 rounded-[32px] border border-white/30 dark:border-white/10 bg-white/20 animate-[fadeInUpBlur_1s_ease-out_1.8s_both]" style={{ willChange: 'opacity, transform, filter' }}>
+            <div className="p-3 sm:p-[18px] relative z-30 rounded-[32px] border border-black/10 dark:border-white/10 bg-black/[0.06] dark:bg-white/10 animate-[fadeInUpBlur_1s_ease-out_1.8s_both]" style={{ willChange: 'opacity, transform, filter' }}>
               <Image
                 src="/images/hero/Dashboard  Navigationen.png"
                 alt=""
