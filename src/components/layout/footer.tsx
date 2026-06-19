@@ -172,16 +172,16 @@ export default function Footer() {
                   </svg>
                 </button>
                 {showLanguageMenu && (
-                  <div className="absolute bottom-full mb-2 left-0 bg-white dark:bg-gray-800 rounded-lg shadow-lg py-2 min-w-[120px]">
+                  <div className="absolute bottom-full mb-2 left-0 bg-white dark:bg-[#0A0A0A] border border-gray-100 dark:border-white/10 rounded-lg shadow-lg py-2 min-w-[120px]">
                     <button
                       onClick={() => { setLanguage('en'); setShowLanguageMenu(false); }}
-                      className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/10"
                     >
                       English
                     </button>
                     <button
                       onClick={() => { setLanguage('es'); setShowLanguageMenu(false); }}
-                      className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/10"
                     >
                       Español
                     </button>

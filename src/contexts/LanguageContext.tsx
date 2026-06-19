@@ -162,6 +162,20 @@ const translations = {
     // Brands
     'brands.title': 'Trusted by worlds largest companies including...',
 
+    // About
+    'about.heroTitle': 'Where all minds can find their flow',
+    'about.heroSubtitle': 'Work has become too complex. Too much noise. Too many tools. Sileo clears the space. So you can focus on what matters. Simple works better.',
+    'about.startOnWeb': 'Start on Web',
+    'about.whyTitle': 'Why we created Sileo',
+    'about.whyText': 'Most productivity tools were not designed for "creative" minds. They\'re built for linear thinkers, not for those who thrive on chaos, but find it doesn\'t work like that. Many people don\'t struggle because they lack discipline, but because the tools they use don\'t match their thinking style. Sileo is different. It\'s designed for minds that need flexibility, visual clarity, and easy to use. So it supports you - not the other way around. And helps you stay focused, one step at a time.',
+    'about.getStartedToday': 'Get Started Today',
+    'about.howTitle': 'How Sileo helps',
+    'about.howText': 'Sileo is designed to make your day easier, not harder. It gives you a clear view of what to do, helps you break tasks into simple steps, and removes the noise that makes it hard to focus. You can plan your day in a way that feels natural, adjust when things change, and move forward without pressure. Everything is built to support you, so you can stay on track in a way that works for you.',
+    'about.exploreGuides': 'Explore Guides',
+    'about.ctaTitle': 'Be part of Sileo',
+    'about.ctaText': 'Sileo is built for people, and it\'s made better by them. If you want to help us shape it, or explore the tools, every voice makes Sileo a better tool, more inclusive.',
+    'about.joinUs': 'Join Us',
+
     // Sign Up
     'signup.tagline': 'Organize your day',
     'signup.leftPanelTitle': 'Manage your tasks with clarity and effortlessly.',
@@ -323,6 +337,20 @@ const translations = {
 
     // Brands
     'brands.title': 'Confiado por las empresas más grandes del mundo incluyendo...',
+
+    // About
+    'about.heroTitle': 'Donde todas las mentes pueden encontrar su flujo',
+    'about.heroSubtitle': 'El trabajo se ha vuelto demasiado complejo. Demasiado ruido. Demasiadas herramientas. Sileo despeja el espacio. Para que puedas centrarte en lo que importa. Lo simple funciona mejor.',
+    'about.startOnWeb': 'Empezar en web',
+    'about.whyTitle': 'Por qué creamos Sileo',
+    'about.whyText': 'La mayoría de herramientas de productividad no fueron diseñadas para mentes «creativas». Están construidas para pensadores lineales, no para quienes prosperan en el caos pero descubren que así no funciona. Muchas personas no luchan por falta de disciplina, sino porque las herramientas que usan no se adaptan a su forma de pensar. Sileo es diferente. Está diseñado para mentes que necesitan flexibilidad, claridad visual y facilidad de uso. Te apoya a ti, no al revés. Y te ayuda a mantenerte enfocado, un paso a la vez.',
+    'about.getStartedToday': 'Comenzar hoy',
+    'about.howTitle': 'Cómo ayuda Sileo',
+    'about.howText': 'Sileo está diseñado para hacer tu día más fácil, no más difícil. Te ofrece una visión clara de qué hacer, te ayuda a dividir las tareas en pasos simples y elimina el ruido que dificulta la concentración. Puedes planificar tu día de forma natural, adaptarte cuando las cosas cambian y avanzar sin presión. Todo está construido para apoyarte, para que puedas seguir el camino a tu manera.',
+    'about.exploreGuides': 'Explorar guías',
+    'about.ctaTitle': 'Sé parte de Sileo',
+    'about.ctaText': 'Sileo está construido para las personas y mejora gracias a ellas. Si quieres ayudarnos a darle forma o explorar las herramientas, cada voz hace de Sileo una herramienta mejor y más inclusiva.',
+    'about.joinUs': 'Únete',
 
     // Sign Up
     'signup.tagline': 'Organiza tu día',
